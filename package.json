@@ -1,6 +1,6 @@
 {
   "name": "@so1ve/rehype-shiki",
-  "version": "2.2.1",
+  "version": "2.2.1-fix.1",
   "description": "Rehype plugin to highlight code blocks with Shiki",
   "exports": "./distribution/index.js",
   "types": "./distribution/index.d.ts",
@@ -30,7 +30,7 @@
     "prepare": "tsc"
   },
   "dependencies": {
-    "@leafac/html": "npm:@so1ve/leafac-html@^3.0.0",
+    "@so1ve/leafac-html": "^3.0.0",
     "hast-util-to-text": "^3.1.1",
     "rehype-parse": "^8.0.3",
     "unified": "^10.1.0",
