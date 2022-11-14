@@ -1,10 +1,10 @@
 {
-  "name": "@leafac/rehype-shiki",
+  "name": "@so1ve/rehype-shiki",
   "version": "2.2.1",
   "description": "Rehype plugin to highlight code blocks with Shiki",
   "exports": "./distribution/index.js",
   "types": "./distribution/index.d.ts",
-  "repository": "leafac/rehype-shiki",
+  "repository": "so1ve/rehype-shiki",
   "keywords": [
     "shiki",
     "syntax",
@@ -13,8 +13,8 @@
   ],
   "author": "Leandro Facchinetti <rehype-shiki@leafac.com> (https://leafac.com)",
   "license": "MIT",
-  "bugs": "https://github.com/leafac/rehype-shiki/issues",
-  "homepage": "https://github.com/leafac/rehype-shiki#readme",
+  "bugs": "https://github.com/so1ve/rehype-shiki/issues",
+  "homepage": "https://github.com/so1ve/rehype-shiki#readme",
   "funding": [
     "https://patreon.com/leafac",
     "https://paypal.me/LeandroFacchinettiEU",
@@ -30,7 +30,7 @@
     "prepare": "tsc"
   },
   "dependencies": {
-    "@leafac/html": "^3.0.0",
+    "@leafac/html": "npm:@so1ve/leafac-html@^3.0.0",
     "hast-util-to-text": "^3.1.1",
     "rehype-parse": "^8.0.3",
     "unified": "^10.1.0",
